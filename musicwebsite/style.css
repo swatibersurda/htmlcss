@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+}
+header{
+    /* border:1px solid red; */
+      background-color: rgb(30, 30, 88);
+      position:sticky;
+      top: 0;
+      z-index: 100;
+       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); 
+}
+nav{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  
+    color: white;
+    align-items: center;
+    padding: 1rem;
+}
+.logo{
+    font-size: 1rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0s ease-in-out;
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0s ease-in-out;
+}
+.hero_section{
+    background-image: url(/images//hero_image.png);
+    height:100vh;
+    /* making this grid so that .container can come in center */
+    display: grid;
+    /* now content will come on center like div */
+    place-items: center;
+    /* this will make content center on that div */
+    text-align: center;
+    color:white;
+    /* border: 1px solid firebrick; */
+}
+.hero_section .container{
+    
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    /* border:1px solid red; */
+    
+
+}
+.hero_section h3{
+    font-size: 32px;
+}
+.music_section{
+    padding: 50px;
+    background-color: rgb(30, 30, 88);
+    border:1px solid green;
+}
+.music_section .container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    color:white;
+}
+.iphoneimg {
+  margin-top: -400px;
+  position: relative;
+  top: 400px;
+  left:  200px;
+}
+.pri-button {
+  background-color: orange;
+  color: white;
+}
