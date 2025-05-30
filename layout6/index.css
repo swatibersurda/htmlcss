@@ -12,7 +12,7 @@ body {
   margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: repeat(2, 575px);
   grid-template-rows: repeat(2, 274px);
@@ -44,7 +44,7 @@ body {
 .gridgreen {
   max-width: 1176px;
   height: 68px;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   margin-top: 16px;
   display: grid;
   grid-template-columns: repeat(4, 279px);
@@ -54,7 +54,7 @@ body {
 .bon {
   background-color: #0aae42;
 }
-@media screen and (min-width: 360px) and (max-width: 767px) {
+@media screen and (min-width: 343px) and (max-width: 767px) {
   .parentGrid {
     max-width: 358px;
     height: 1164px;
@@ -71,7 +71,6 @@ body {
   .darkgreendiv {
     max-width: 334px;
     height: 324px;
-    background-color: #0aae42;
   }
   .gridgreen {
     max-width: 334px;
@@ -79,7 +78,7 @@ body {
     
     margin-top: 16px;
     display: grid;
-    grid-template-columns: repeat(1, 333px);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 42px);
     gap: 12px;
     
@@ -103,12 +102,10 @@ body {
   .darkgreendiv {
     max-width: 688px;
     height: 324px;
-    background-color: #0aae42;
   }
   .gridgreen {
     max-width: 720px;
     height: 68px;
-    border: 1px solid yellow;
     margin-top: 16px;
     display: grid;
     grid-template-columns: repeat(2, 336px);
